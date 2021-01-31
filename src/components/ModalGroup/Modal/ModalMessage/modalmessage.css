@@ -1,0 +1,67 @@
+.modal-responsive {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    z-index: 1000;
+    border-radius: 10px;
+    min-width: 350px;
+}
+
+.toggle-area {
+    position: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.modal-heading {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* .modal-message .modal-content h2 {
+    margin: 0 20px;
+    margin-top: 2rem;
+    max-width: 100%;
+} */
+
+.message {
+    padding: 2rem;
+    font-size: 125%;
+}
+
+.modal-message .button {
+    font-size: 20px;
+    padding: 1rem 6rem;
+    margin-bottom: 1rem;
+    background-color: #24a0ed;
+    color: white;
+}
+
+.modal-message .btn-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    /* top: 70%; */
+    height: auto;
+}
+
+.modal-message .btn-area .btn-submit {
+    padding: 7px;
+    margin: 5px;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+    min-width: 200px;
+}
+
+.btn-submit.middle {
+    border: 2px solid #519ece;
+    background-color: #519ece;
+    margin-left: 2rem;
+}

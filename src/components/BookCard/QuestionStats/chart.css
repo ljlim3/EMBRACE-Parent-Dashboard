@@ -1,0 +1,23 @@
+.pie-chart {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+  
+.pie-chart span {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 40%;
+    font-size: 13px;
+    color: #696969;
+}
+
+.pie-chart p {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 47%;
+    font-size: 17px;
+}
+  

@@ -1,8 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --eng-color: blue;
+  --spn-color: yellow;
+}
+
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.gray {
+  background-color: #c0c0c0;
+}
+
+.orange {
+  background-color: #db8200;
+}
+
+.green {
+  background-color: #508104;
+}
+
+.bright-green {
+  background-color: #39b54a;
+}
+
+.red {
+  background-color: #da473a;
+}
+
+.yellow {
+  background-color: #FAFA0F;
+}
+
+.blue {
+  background-color: rgb(44, 44, 174);
+}
+
+.red-outline {
+  border: 2px solid #da473a;
+}
+
+.orange-outline {
+  border: 2px solid #db8200;
+}
+
+.green-outline {
+  border: 2px solid #508104;
+}
+
+.gray-outline {
+  border: 2px solid #c0c0c0;
+}
+
+.bright-green-outline {
+  border: 2px solid #39b54a;
+}
+
+.yellow-outline {
+  border: 2px solid #FAFA0F;
+}
+
+.blue-outline {
+  border: 2px solid rgb(44, 44, 174);
+}
+
+.parent-icon {
+  width: 80px;
+}
+
+.child-icon {
+  width: 61px;
+}
+
+.grayscale {
+  filter: grayscale(100%) brightness(85%) drop-shadow(-1px -1px 0.5px gray);
+}
+
+/* Tooltip */
+.tooltip::before,
+.tooltip::after {
+    --scale: 0;
+    --arrow-size: 10px;
+    --tooltip-color: #333;
+
+    position: absolute;
+    top: -.35rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+    transition: 15ms transform;
+    transform-origin: bottom center;
+    white-space: pre-wrap;
+}
+
+.tooltip::before {
+    --translate-y: calc(-100% - var(--arrow-size));
+
+    content: attr(tooltip-text);
+    color: white;
+    padding: .7rem;
+    border-radius: .2rem;
+    text-align: center;
+    width: max-content;
+    max-width: 120%;
+    background-color: var(--tooltip-color); 
+    z-index: 2;
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+    --scale: 1;
+}
+
+.tooltip::after {
+  --translate-y: calc(-1 * var(--arrow-size));
+
+  content: '';
+  border: var(--arrow-size) solid transparent;
+  border-top-color: var(--tooltip-color);
+  transform-origin: top center;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -26,7 +153,8 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
+
 
 @keyframes App-logo-spin {
   from {

@@ -1,0 +1,182 @@
+/* .grayscale {
+  filter: grayscale(100%) brightness(85%) drop-shadow(-1px -1px 0.5px gray);
+} */
+
+.drop-shadow {
+  filter: drop-shadow(1px 0.5px 2px rgb(138, 126, 73));
+}
+
+header h4 {
+  font-size: 21px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 0 21px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #d8d6d6;
+  transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-color: #6A4B35; */
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0));
+  width: 260px;
+  height: 360px;
+  border-radius: 2%;
+  /* background-color: #ffe5d4; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/mooning.png"); */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.card .star-container {
+  position: absolute;
+  left: 0;
+  padding: 0 4%;
+  top: 3%;
+}
+
+.card .star-container img {
+  height: 30px;
+}
+
+.star-container .num-readings {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 82%;
+}
+
+.card.flip {
+  --rotate-y: 180deg;
+  cursor: pointer;
+}
+
+.card .front {
+  background-image: url("https://www.transparenttextures.com/patterns/mooning.png");
+}
+
+.card .front,
+.card .back {
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  padding: 1rem;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card .back {
+  width: 100%;
+  background-color: white;
+  transform: rotateY(180deg);
+}
+
+.card .image-container {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+}
+
+.card .image-container img {
+  height: 130px;
+  width: 130px;
+}
+
+.card .lang-bar {
+  position: absolute;
+  top: 57%;
+  left: 0;
+  right: 0;
+  padding: 55px;
+}
+
+.lang-bar .parent-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.lang-bar .child-icon {
+  position: absolute;
+  right: 2px;
+  top: 12px;
+}
+
+.card .button-area {
+  position: absolute;
+  top: 83%;
+  left: 0;
+  right: 0;
+  align-items: center;
+}
+
+.card .button {
+  border: none; /*1px solid #d8d6d6;*/
+  /* margin: 0 16%; */
+  border-radius: 50%;
+  text-align: center;
+  /* display: inline-block; */
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 46px;
+  height: 46px;
+  background-color: #f0f0f0;
+}
+
+.card .button-read img {
+  /* width: 300;
+  height: 300; */
+  width: 50%;
+  height: auto;
+}
+
+.card .button-read {
+  position: relative;
+  right: 0px;
+  margin-left: 23%;
+}
+
+.card .button-info {
+  position: relative;
+  margin-right: 23%;
+}
+
+.card .button-info img {
+  width: 50%;
+  height: auto;
+}
+
+.time-container {
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  padding-top: 1rem;
+}
+
+.position-center {
+  height: 300px;
+  margin: 11px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.back.bg-color {
+  background-color:rgb(230, 223, 250)
+}
+
+.position-center .container {
+  padding-top: 50%;
+}
+
+.lang-bar img {
+  max-width: 100%;
+  height: auto;
+}

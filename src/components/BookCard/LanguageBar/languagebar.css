@@ -1,0 +1,41 @@
+.bar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: -24px;
+
+}
+
+.bar-item {
+  width: 35px;
+  height: 32px;
+  border: 1px solid black;
+  padding: 7px 0;
+}
+
+.empty-slot {
+  border: 1px solid #a9a9a9;
+  background-color: #a9a9a9;
+  box-shadow: inset 0 0 6px #696969;
+}
+
+.reader-parent {
+  border: 1px solid rgb(180, 177, 177);
+  background-color:  #508104;
+}
+
+.reader-child {
+  border: 1px solid rgb(180, 177, 177);
+  background-color: #db8200;
+}
+
+.lang-EN {
+  color: var(--spn-color);
+  font-weight: bold;
+}
+
+.lang-ES {
+  color: var(--eng-color);;
+  font-weight: bold;
+}

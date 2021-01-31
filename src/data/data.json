@@ -1,0 +1,117 @@
+[
+    {
+      "loginStatus": "DS"
+    },
+    {
+      "bookInProgress": {
+        "title": "How Objects Move",
+        "reader": "child",
+        "language": "EN"
+      }
+    },
+    {
+      "title": "Best Farm",
+      "concrete": 5,
+      "abstract": 8,
+      "relational": 15,
+      "image": "./BookImages/book-farm.png",
+      "numReadings": 1,
+      "childEnglishInProgress": false,
+      "childSpanishInProgress": false,
+      "parentEnglishInProgress": false,
+      "parentSpanishInProgress": false,
+      "readerLanguage": [["child", "EN"], ["child", "ES"], ["parent", "EN"], null],
+      "timeSpent": 833
+    },
+    {
+      "title": "Lopez Family Mystery",
+      "concrete": 2,
+      "abstract": 3,
+      "relational": 1,
+      "image": "./BookImages/book-mystery.png",
+      "numReadings": 10,
+      "childEnglishInProgress": true,
+      "childSpanishInProgress": false,
+      "parentEnglishInProgress": false,
+      "parentSpanishInProgress": false,
+      "readerLanguage": [["parent", "ES"], ["parent", "ES"], ["parent", "ES"], null],
+      "timeSpent": 70,
+      "isFourthValidReading": false
+    },
+    {
+      "title": "A Celebration to Remember",
+      "concrete": 9,
+      "abstract": 11,
+      "relational": 1,
+      "image": "./BookImages/book-celebration.png",
+      "numReadings": 3,
+      "childEnglishInProgress": false,
+      "childSpanishInProgress": false,
+      "parentEnglishInProgress": false,
+      "parentSpanishInProgress": false,
+      "readerLanguage": [["child", "EN"], ["child", "ES"], ["child", "EN"], ["parent", "EN"]],
+      "timeSpent": 115,
+      "isFourthValidReading": false
+    },
+    {
+      "title": "Native American Homes",
+      "concrete": 3,
+      "abstract": 4,
+      "relational": 15,
+      "image": "./BookImages/book-native.png",
+      "numReadings": 24,
+      "childEnglishInProgress": false,
+      "childSpanishInProgress": false,
+      "parentEnglishInProgress": false,
+      "parentSpanishInProgress": false,
+      "readerLanguage": [["parent", "ES"], ["parent", "ES"], ["parent", "ES"], ["child", "EN"]],
+      "timeSpent": 94,
+      "isFourthValidReading": false
+    },
+    {
+      "title": "Natural Disasters",
+      "concrete": 3,
+      "abstract": 4,
+      "relational": 15,
+      "image": "./BookImages/book-natural.png",
+      "numReadings": 5,
+      "childEnglishInProgress": false,
+      "childSpanishInProgress": false,
+      "parentEnglishInProgress": false,
+      "parentSpanishInProgress": false,
+      "readerLanguage": [["child", "ES"], ["child", "EN"], ["parent", "ES"], ["child", "ES"]],
+      "timeSpent": 10138,
+      "isFourthValidReading": false
+    },
+    {
+      "title": "How Objects Move",
+      "concrete": 3,
+      "abstract": 4,
+      "relational": 15,
+      "image": "./BookImages/book-physics.png",
+      "numReadings": 89,
+      "childEnglishInProgress": false,
+      "childSpanishInProgress": false,
+      "parentEnglishInProgress": false,
+      "parentSpanishInProgress": false,
+      "readerLanguage": [["child", "EN"], ["child", "EN"], ["child", "EN"], null],
+      "timeSpent": 140,
+      "isFourthValidReading": false
+    },
+    {
+      "title": "The Circulatory System",
+      "concrete": 3,
+      "abstract": 4,
+      "relational": 15,
+      "image": "./BookImages/book-circulatory.png",
+      "numReadings": 4,
+      "childEnglishInProgress": false,
+      "childSpanishInProgress": false,
+      "parentEnglishInProgress": false,
+      "parentSpanishInProgress": false,
+      "readerLanguage": [["parent", "EN"], ["child", "ES"], null, null],
+      "timeSpent": 199,
+      "isFourthValidReading": false
+    }
+  ]
+  

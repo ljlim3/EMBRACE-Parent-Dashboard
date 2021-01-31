@@ -1,0 +1,56 @@
+.container h4 {
+    color: #676767;
+    padding-bottom: 1rem;
+  }
+  
+.time {
+    font-size: 25px;
+}
+
+.time div {
+    position: relative;
+    display: inline-block;
+}
+
+.time .hour .time-label-hours {
+    text-align: center;
+    display: block;
+    padding: 0 2px;
+}
+
+.time .minute .time-label-minutes {
+    text-align: center;
+    display: block;
+    padding: 0 2px;
+}
+
+.time .hour,
+.time .minute {
+    padding-top: 5px;
+}
+
+.colon {
+    position: absolute;
+    top: -18px;
+    padding: 0 6px;
+}
+
+.space {
+    display: block;
+}
+
+.time-label-hours,
+.time-label-minutes {
+    color: #808080;
+    font-size: 11px;
+    display: inline-block;
+}
+
+.time-label-hours {
+    padding-right: 7px;
+}
+
+.time-label-minutes {
+    padding-left: 7px;
+}
+  

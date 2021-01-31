@@ -1,0 +1,82 @@
+.modal-sm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 1000;
+    width: 50%;
+    height: 65%;
+}
+
+.reading-option-title {
+    text-align: center;
+    padding-top: 6%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+h3.pm-title {
+    position: absolute;
+    left: 23%;
+    top: 33%;
+}
+
+h3.vocab-title {
+    position: absolute;
+    left: 23%;
+    right: 0;
+    top: 58%;
+}
+
+.option-toggle-pm {
+    position: absolute;
+    left: 62%;
+    top: 31%;
+}
+
+.option-toggle-vocab {
+    position: absolute;
+    left: 62%;
+    top: 56%;
+}
+
+.modal-sm button {
+    position: absolute;
+    color: white;
+    border-radius: 4px;
+    top: 86%;
+    font-size: 17px;
+    text-align: center;
+    padding: 8px 40px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.modal-sm .btn-back {
+    border: 2px solid #24a0ed;
+    background-color: white;
+    color: #24a0ed;
+    left: 0;
+    margin-left: 2rem;
+}
+
+.modal-sm .btn-back:hover {
+    background-color: #24a0ed;
+    color: white;
+}
+
+.modal-sm .btn-read {
+    border: 2px solid #ed9121;
+    background-color: #ed9121;
+    right: 0;
+    margin-right: 2rem;
+}
+  

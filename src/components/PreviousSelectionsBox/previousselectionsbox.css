@@ -1,0 +1,46 @@
+.rectangle {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 57px);
+    grid-template-rows: 57px;
+    box-shadow: 0 0 5px 1px rgb(97, 97, 97);
+}
+
+.rectangle > div {
+    text-align: center;
+    border: 1px solid rgb(215, 215, 215);
+    font-size: 11px;
+    /* background: rgb(242, 242, 242); */
+    font-weight: bold;
+}
+
+/* .rectangle .top {
+    padding: 2px 0;
+    background: rgb(213, 213, 213);
+    font-weight: bold;
+} */
+
+.rectangle .content {
+    align-self: stretch;
+    justify-self: stretch;
+    font: #333;
+}
+
+.content.right {
+   padding-top : 22%;
+   font-size: 12px;
+}
+
+.rectangle img {
+    width: 40px;
+}
+
+.content .img-label {
+    position: relative;
+    left: 0;
+    right: 50%;
+    bottom: 9%;
+}
+
